@@ -160,3 +160,38 @@ block banner
   line-height: 100%;
   color: #ffffff;
 }
+
+/* 
+wrapper cards
+*/
+.wrapper-cards {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: justify;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card__img {
+  width: 80px;
+}
+
+.card__title {
+  width: 193px;
+  margin-top: 54px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 135%;
+  text-align: center;
+  color: #ffffff;
+}
