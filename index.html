@@ -37,33 +37,33 @@
           </div>
 
           <div class="header__box2">
-            <ul class="box2__ul">
-              <li class="box2__item">
-                <a class="box2__link" href="index.html">
+            <ul class="navigation">
+              <li class="navigation__item">
+                <a class="navigation__item-link" href="index.html">
                   О комплексе
                 </a>
               </li>
 
-              <li class="box2__item">
-                <a class="box2__link" href="index.html">
+              <li class="navigation__item">
+                <a class="navigation__item-link" href="index.html">
                   Район
                 </a>
               </li>
 
-              <li class="box2__item">
-                <a class="box2__link" href="index.html">
+              <li class="navigation__item">
+                <a class="navigation__item-link" href="index.html">
                   Каталог квартир
                 </a>
               </li>
 
-              <li class="box2__item">
-                <a class="box2__link" href="index.html">
+              <li class="navigation__item">
+                <a class="navigation__item-link" href="index.html">
                   Ипотека
                 </a>
               </li>
 
-              <li class="box2__item">
-                <a class="box2__link" href="index.html">
+              <li class="navigation__item">
+                <a class="navigation__item-link" href="index.html">
                   Контакты
                 </a>
               </li>
@@ -195,55 +195,250 @@
         </div>
       </div>
 
-      <div class="registration-wrapper">
-        <div class="registration-wrapper__background">
+      <!-- registration -->
+      <div class="registration">
+        <div class="registration__background">
           <!-- background img from css -->
         </div>
 
-        <div class="registration-wrapper__block container">
-          <div class="registration-wrapper__box">
-            <h3 class="registration-wrapper__title">
-              Хотите посмотреть?
-            </h3>
+        <div class="registration__wrapper container">
+          <div class="registration__relative-box">
+            <div class="registration__box1">
+              <h3 class="registration__title">
+                Хотите посмотреть?
+              </h3>
 
-            <span class="registration-wrapper__text">
-              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
-              на латинице с начала XVI века. В то время некий безымянный
-              печатник создал большую коллекцию размеров и форм шрифтов,
-              используя Lorem Ipsum для распечатки образцов.
-            </span>
-          </div>
-          <div class="registration-wrapper__box">
-            <form>
-              <input
-                class="registration-wrapper__input"
-                type="text"
-                id="name"
-                name="fname"
-                placeholder="Ваше имя
-              "
-              />
-              <input
-                class="registration-wrapper__input"
-                type="text"
-                id="number"
-                name="number"
-                placeholder="Ваш телефон"
-              />
-            </form>
+              <span class="registration__text">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+                текстов на латинице с начала XVI века. В то время некий
+                безымянный печатник создал большую коллекцию размеров и форм
+                шрифтов, используя Lorem Ipsum для распечатки образцов.
+              </span>
+            </div>
+            <div class="registration__box2">
+              <form>
+                <input
+                  class="input"
+                  type="text"
+                  id="name"
+                  name="fname"
+                  placeholder="Ваше имя"
+                />
 
-            <span class="registratrion-wrapper__text">
-              Мы никому не передаем ваши данные. И не сохраняем ваш номер в
-              базу.
-            </span>
+                <input
+                  class="input"
+                  type="text"
+                  id="number"
+                  name="number"
+                  placeholder="Ваш телефон"
+                />
+              </form>
 
-            <a href="index.html" class="registration-wrapper__link">
-              Посмотреть район
-            </a>
+              <div class="registration__wrap">
+                <span class="registratrion__text">
+                  Мы никому не передаем ваши данные. И не сохраняем ваш номер в
+                  базу.
+                </span>
+
+                <a href="index.html" class="registration__link">
+                  Посмотреть район
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- video block -->
+      <div class="video-block">
+        <div class="video__box">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/zayr5MB7P3A"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="map-block container">
+        <h3 class="map-block__title">
+          Район на карте
+        </h3>
+
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325515.681649417!2d30.25250431319463!3d50.402136750842566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2sKyiv%2C%20Ukraine%2C%2002000!5e0!3m2!1sen!2sge!4v1593333130628!5m2!1sen!2sge"
+          frameborder="0"
+          style="border: 0;"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
+
+      <!-- second block registration -->
+      <div class="question-block container">
+        <h3 class="question-block__title">
+          Есть вопросы?
+        </h3>
+        <div class="question-block__box">
+          <span class="registratrion__text">
+            Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.
+          </span>
+
+          <form>
+            <input
+              class="input"
+              type="text"
+              id="name"
+              name="fname"
+              placeholder="Ваше имя"
+            />
+
+            <input
+              class="input"
+              type="text"
+              id="number"
+              name="number"
+              placeholder="Ваш телефон"
+            />
+          </form>
+
+          <a href="index.html" class="registration__link">
+            Посмотреть район
+          </a>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer__wrapper container">
+          <div class="footer__wrapper-box">
+            <img
+              src="./images/housevop.png"
+              alt="HouseVOP"
+              class="footer__wrapper-logo"
+            />
+            <span class="footer__wrapper-text">
+              ЖИЛОЙ КОМПЛЕКС
+            </span>
+          </div>
+
+          <div class="footer__wrapper-box">
+            <ul class="footer__wrapper-navigation">
+              <li class="navigation__item navigation__item--spacing">
+                <a class="navigation__item-link" href="index.html">
+                  О комплексе
+                </a>
+              </li>
+
+              <li class="navigation__item navigation__item--spacing">
+                <a class="navigation__item-link" href="index.html">
+                  Район
+                </a>
+              </li>
+
+              <li class="navigation__item navigation__item--spacing">
+                <a class="navigation__item-link" href="index.html">
+                  Каталог квартир
+                </a>
+              </li>
+
+              <li class="navigation__item navigation__item--spacing">
+                <a class="navigation__item-link" href="index.html">
+                  Ипотека
+                </a>
+              </li>
+
+              <li class="navigation__item navigation__item--spacing">
+                <a class="navigation__item-link" href="index.html">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__wrapper-box">
+            <ul class="footer__wrapper-navigation">
+              <li class="navigation__item navigation__item--spacing">
+                <a class="navigation__item-link" href="index.html">
+                  О комплексе
+                </a>
+              </li>
+
+              <li class="navigation__item navigation__item--spacing">
+                <a class="navigation__item-link" href="index.html">
+                  Район
+                </a>
+              </li>
+
+              <li class="navigation__item navigation__item--spacing">
+                <a class="navigation__item-link" href="index.html">
+                  Каталог квартир
+                </a>
+              </li>
+
+              <li class="navigation__item navigation__item--spacing">
+                <a class="navigation__item-link" href="index.html">
+                  Ипотека
+                </a>
+              </li>
+
+              <li class="navigation__item navigation__item--spacing">
+                <a class="navigation__item-link" href="index.html">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__wrapper-box">
+            <span class="footer__wraper-text">
+              Адрес: Наб. реки Фонтанки 10-15
+            </span>
+
+            <span class="footer__wraper-text">
+              Телефон: 8 (812) 123-45-67
+            </span>
+
+            <span class="footer__wraper-text">
+              Отдел продаж: 10:00 - 20:00
+            </span>
+
+            <span class="footer__wraper-text">
+              E-mail: vip@housevip.ru
+            </span>
+
+            <div class="footer__wrapper-icons">
+              <img
+                class="footer__wrapper-icon"
+                src="./images/icons/youtube.png"
+                alt="youtube"
+              />
+
+              <img
+                class="footer__wrapper-icon"
+                src="./images/icons/vk.png"
+                alt="vk"
+              />
+
+              <img
+                class="footer__wrapper-icon"
+                src="./images/icons/fb.png"
+                alt="facebook"
+              />
+
+              <img
+                class="footer__wrapper-icon"
+                src="./images/icons/instagram.png"
+                alt="instagram"
+              />
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="./script.js"></script>
