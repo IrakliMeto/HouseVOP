@@ -209,7 +209,7 @@ block banner
   flex-direction: column;
 }
 
-.banner__header-slide {
+.banner__header-slider {
   margin-bottom: 24px;
   width: 264px;
   font-family: "Playfair Display", serif;
@@ -222,7 +222,7 @@ block banner
 }
 
 @media screen and (min-width: 768px) {
-  .banner__header-slide {
+  .banner__header-slider {
     margin-bottom: 32px;
     font-size: 32px;
     width: 444px;
@@ -230,7 +230,7 @@ block banner
 }
 
 @media screen and (min-width: 992px) {
-  .banner__header-slide {
+  .banner__header-slider {
     margin-bottom: 80px;
     width: 530px;
     font-size: 48px;
@@ -238,17 +238,16 @@ block banner
 }
 
 .banner__header-icon {
-  height: 19px;
-}
-
-@media screen and (min-width: 768px) {
-  .banner__header-icon {
-    height: 26px;
-  }
+  display: none;
 }
 
 @media screen and (min-width: 992px) {
   .banner__header-icon {
+    display: block;
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
     height: 40px;
   }
 }
