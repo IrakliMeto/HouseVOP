@@ -109,7 +109,7 @@
         </div>
       </div>
       <!-- wrapper cards -->
-      <div class="cards">
+      <div class="cards container">
         <div class="card">
           <img
             src="./images/icons/card-icon1.png"
@@ -213,9 +213,9 @@
               </span>
             </div>
             <div class="registration__section registration__section--right">
-              <form>
+              <form class="registration__section-form">
                 <input
-                  class="input"
+                  class="input registration__section--input"
                   type="text"
                   id="name"
                   name="fname"
@@ -223,7 +223,7 @@
                 />
 
                 <input
-                  class="input"
+                  class="input registration__section--input"
                   type="text"
                   id="number"
                   name="number"
@@ -232,12 +232,12 @@
               </form>
 
               <div class="registration__wrap">
-                <span class="registratrion__text">
+                <span class="registration__wrap-text">
                   Мы никому не передаем ваши данные. И не сохраняем ваш номер в
                   базу.
                 </span>
 
-                <a href="index.html" class="registration__link">
+                <a href="index.html" class="registration__wrap-link">
                   Посмотреть район
                 </a>
               </div>
@@ -250,8 +250,7 @@
       <div class="video-section">
         <div class="video-section__box">
           <iframe
-            width="560"
-            height="315"
+            class="video-section--video"
             src="https://www.youtube.com/embed/zayr5MB7P3A"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -282,7 +281,7 @@
           Есть вопросы?
         </h3>
         <div class="question-block__box">
-          <span class="registratrion__text">
+          <span class="question-block__text">
             Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.
           </span>
 
@@ -304,7 +303,7 @@
             />
           </form>
 
-          <a href="index.html" class="registration__link">
+          <a href="index.html" class="question-block__link">
             Посмотреть район
           </a>
         </div>
@@ -322,7 +321,7 @@
             </span>
           </div>
 
-          <div class="footer__wrapper-box">
+          <div class="footer__wrapper-box footer__wrapper-box--visibility">
             <ul class="footer__wrapper-navigation">
               <li class="navigation__item navigation__item--spacing">
                 <a class="navigation__item-link" href="index.html">
@@ -356,7 +355,7 @@
             </ul>
           </div>
 
-          <div class="footer__wrapper-box">
+          <div class="footer__wrapper-box footer__wrapper-box--visibility">
             <ul class="footer__wrapper-navigation">
               <li class="navigation__item navigation__item--spacing">
                 <a class="navigation__item-link" href="index.html">
@@ -390,7 +389,7 @@
             </ul>
           </div>
 
-          <div class="footer__wrapper-box">
+          <div class="footer__wrapper-box footer__wrapper-box--big-size">
             <span class="footer__wraper-text">
               Адрес: Наб. реки Фонтанки 10-15
             </span>
